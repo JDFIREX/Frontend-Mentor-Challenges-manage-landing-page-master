@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Manage landing page</title>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    </style>
+</head>
+<body class="body">
+  <div class="curtain" style="width: 100vw; height: 100vh; position: fixed; top: 0; left: 0; background-color: white; z-index: 200000000000; transition: all .5s ease-in-out;display: flex; align-items: center; justify-content: center;"><img src="images/logo.svg" alt="logo" style="width: 80vw;"></div>
+  <!-- background images - position absolute  -->
+  <div class="tablet">
+    <img class="tablet-1" src="images/bg-tablet-pattern.svg" alt="table">
+    <img class="tablet-2" src="images/bg-tablet-pattern.svg" alt="table">
+  </div>
+<!-- header -->
+  <header class="header">
+    <!-- header logo -->
+    <img class="header_logo" src="images/logo.svg" alt="logo">
+    <!-- nav -->
+    <nav class="nav">
+      <p class="color_dark_blue nav_p">Pricing</p>
+      <p class="color_dark_blue nav_p">Produc</p>
+      <p class="color_dark_blue nav_p">About Us</p>
+      <p class="color_dark_blue nav_p">Careers</p>
+      <p class="color_dark_blue nav_p">Community</p>
+    </nav>
+    <!-- header btn -->
+    <button class="header_btn background_bright_red">
+      <p class="color_white">Get Started</p>
+    </button>
+    <!-- header humb - mobile nav -->
+    <img class="header_humb" src="images/icon-hamburger.svg" alt="humb">
+  </header>
+<!-- main -->
+  <main class="main">
+    <!-- main header  -->
+    <div class="main_left">
+      <h1 class="color_dark_blue MLH">
+        Bring everyone together to build better products.
+      </h1>
+      <p class="color_dark_grayish_blue MLP">
+        Manage makes it simple for software teams 
+        to plan day-to-daytasks while keeping the 
+        larger team goals in view.
+      </p>
+      <button class="main_btn background_bright_red">
+        <p class="color_white">Get Started</p>
+      </button>
+    </div>
+    <!-- main intro img -->
+    <div class="main_right">
+      <img class="main_intro" src="images/illustration-intro.svg" alt="illustration intro">
+    </div>
+  </main>
+<!-- manage -->
+  <section class="manage">
+    <!-- manage header left side  -->
+    <div class="manage_left">
+      <h1 class="color_dark_blue MGLH">
+        What’s different about Manage?
+      </h1>
+      <p class="color_dark_grayish_blue MGLP">
+        Manage provides all the functionality your
+        team needs, without the complexity. Our
+        software is tailor-made for modern digital
+        product teams. 
+      </p>
+    </div>
+    <!-- manage list  rigth side -->
+    <div class="manage_right">
+      <!-- manage - 01 -->
+      <div class="manage_item">
+        <div class="manage_item_id background_bright_red">
+          <p class="color_white">01</p>
+        </div>
+        <div class="manage_item_header">
+          <h1 class="color_dark_blue">Track company-wide progress</h1>
+        </div>
+        <div class="manage_item_info">
+          <p class="color_dark_grayish_blue">
+            See how your day-to-day tasks fit into the wider vision. 
+            Go from tracking progress at the milestone level all the 
+            way done to the smallest of details. Never lose sight of 
+            the bigger picture again.
+          </p>
+        </div>
+      </div>
+      <!-- manage 02 -->
+      <div class="manage_item">
+        <div class="manage_item_id background_bright_red">
+          <p class="color_white">02</p>
+        </div>
+        <div class="manage_item_header">
+          <h1 class="color_dark_blue">Advanced built-in reports</h1>
+        </div>
+        <div class="manage_item_info">
+          <p class="color_dark_grayish_blue">
+            Set internal delivery estimates and track progress toward 
+            company goals. Our customisable dashboard helps you 
+            build out the reports you need to keep key stakeholders 
+            informed.
+          </p>
+        </div>
+      </div>
+      <!-- manage 03 -->
+      <div class="manage_item">
+        <div class="manage_item_id background_bright_red">
+          <p class="color_white">03</p>
+        </div>
+        <div class="manage_item_header">
+          <h1 class="color_dark_blue">Everything you need in one place</h1>
+        </div>
+        <div class="manage_item_info">
+          <p class="color_dark_grayish_blue">
+            Stop jumping from one service to another to 
+            communicate, store files, track tasks and share 
+            documents. Manage offers an all-in-one team
+            productivity solution.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+<!-- comments -->
+  <section class="comments">
+    <!-- comments header -->
+    <div class="comments_header">
+      <h1 class="color_dark_blue">
+        What they’ve said
+      </h1>
+    </div>
+    <!-- comments slider list  -->
+    <div class="comments_list">
+    </div>
+    <!-- comments - mobile version - fill circle which comments is in middle of screen -->
+    <div class="comments_slider_positions">
+      <div class="comments_slider_position"></div>
+      <div class="comments_slider_position"></div>
+      <div class="comments_slider_position"></div>
+      <div class="comments_slider_position"></div>
+    </div>
+    <!-- comments button on bottom secion -->
+    <button class="comments_btn background_bright_red">
+      <p class="color_white">Get Started</p>
+    </button>
+  </section>
+<!-- simplify -->
+  <section class="simplify background_bright_red">
+    <h1 class="color_white">Simplify how your team <br>works today.</h1>
+    <button class="simplify_btn background_white">
+      <p class="color_bright_red">Get Started</p>
+    </button>
+  </section>
+<!-- footer -->
+  <footer class="background_very_dark_blue">
+    <!-- logo and media list -->
+    <div class="media">
+      <img class="footer_logo" src="images/logo-white.svg" alt="logo">
+      <div class="media_list">
+        <div class="media_item"></div>
+        <div class="media_item"></div>
+        <div class="media_item"></div>
+        <div class="media_item"></div>
+        <div class="media_item"></div>
+      </div>
+    </div>
+    <!-- company offerts , contacts, info etc. -->
+    <div class="offerts">
+      <div class="offert_left">
+        <p class="color_white">Home</p>
+        <p class="color_white">Pricing</p>
+        <p class="color_white">Products</p>
+        <p class="color_white">About Us</p>
+      </div>
+      <div class="offert_right">
+        <p class="color_white">Careers</p>
+        <p class="color_white">Community</p>
+        <p class="color_white">Privacy Policy</p>
+      </div>
+    </div>
+    <!-- email input and copyright  -->
+    <div class="email">
+      <div class="email_box">
+        <div class="email_input">
+          <input type="email" name="email" class="input_email" placeholder="Updates in your inbox...">
+          <button class="email_btn background_bright_red"><p class="color_white">Go</p></button>
+          <label for="email" style="display: none;"></label>
+        </div>
+        <div class="email_error">
+          <p class="color_red">Please insert a valid email</p>
+        </div>
+      </div>
+      <p class="email_copyright color_dark_grayish_blue">Copyright 2020. All Rights Reserved</p>
+    </div>
+  </footer>
+  <div style="width: 95vw; position: fixed ; bottom: 0px; left : 10px; color: black; text-align: center;">
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/JDFIREX" target="_blank">Jonatan Dajtrowski</a>.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+
+
+</body>
+</html>
